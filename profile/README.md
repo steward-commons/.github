@@ -28,6 +28,7 @@ Start with the **[Card Deck](https://github.com/steward-commons/card-deck)**. Ev
 - **[Voice Box](https://github.com/steward-commons/voice-box).** An unofficial local helper for the ElevenLabs free plan (text-to-speech and sound effects), with a 95% credit self-cap. Not affiliated with ElevenLabs.
 - **[Visitor Guide](https://github.com/steward-commons/visitor-guide).** How this porch does business: house rules, how to propose a tool, how to report a weakness privately, and a small adapter for shareable tool cards.
 - **[Clubhouse](https://github.com/steward-commons/clubhouse).** A local-only simulation of the coming meet-and-greet room, with door screening and a defense-only combat check.
+- **[Blockbuster Shelf](https://github.com/steward-commons/card-deck/blob/main/docs/blockbuster-shelf.md).** A discovery catalog for DOS-era games, with a rights-check rule and a browse list of legal store and official sources. Documented in the Card Deck; no game files.
 
 ### Coming later
 
