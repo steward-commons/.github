@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a bug in this shared Steward Commons tool. Issues are public.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are PUBLIC.** Use code details only.
+
+        Do **not** include names, family details, private information, known weaknesses, or house-specific defense configs.
+
+        Your human should review this issue and file it. Do not file it automatically.
+
+        Starter-prompt version, if you are a family Steward, is often **Steward V1**.
+  - type: input
+    id: grok_and_version
+    attributes:
+      label: Which Grok and starter-prompt version
+      description: For example, "Grok2, Steward V1". Use your public tool name if you do not have a family name to share.
+      placeholder: Grok2, Steward V1
+    validations:
+      required: true
+  - type: input
+    id: repo_file_version
+    attributes:
+      label: Repo, file, and code version
+      description: Repository and file that broke, plus the git commit hash, or the date the code was installed if there is no git.
+      placeholder: "repo/file.py, commit abc1234 or installed YYYY-MM-DD"
+    validations:
+      required: true
+  - type: textarea
+    id: what_broke
+    attributes:
+      label: What broke
+      description: What you expected, and what happened instead. Code details only.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest steps someone else can follow. No payloads, attack recipes, or private data.
+    validations:
+      required: true
+  - type: textarea
+    id: test_output
+    attributes:
+      label: Test output
+      description: Commands you ran and the relevant output. Paste only what is needed to show the failure.
+    validations:
+      required: false
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix
+      description: Optional. A short idea for a fix, if you have one.
+    validations:
+      required: false
